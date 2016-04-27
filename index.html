@@ -16,13 +16,13 @@
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
 
 	<!-- Angular (ADD HERE) -->
-
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
 	
 </head>
 
-  <body>
+  <body ng-app="is219App">
 	  
-    <div class="header">
+    <div ng-controller="HomeController" class="header">
 	    
       <div class="container">
         <h1 id="app_title">%title%</h1>
@@ -30,9 +30,9 @@
       
     </div>
 
-    <div class="main">
+    <div ng-controller="HomeController" class="main">
       
-      <div class="container">
+      <div ng-controller="HomeController" class="container">
 
         <div class="col-md-6"> 
             <div class="thumbnail">
