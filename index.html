@@ -32,12 +32,12 @@
 
     <div ng-controller="HomeController" class="main">
       
-      <div ng-controller="HomeController" class="container">
+      <div class="container">
 
-        <div ng-controller="HomeController" class="col-md-6"> 
-            <div ng-controller="HomeController" class="thumbnail">
+        <div class="col-md-6"> 
+            <div class="thumbnail">
 
-					<img class="poster" />
+					<img ng-src="{{ movies[0].posters[0] }}" class="poster" />
 					<div ng-controller="HomeController" class="imageInfo">{{ posterindex }}</div>
 					
 					<p class="title">%title% (%country%)</p> 
