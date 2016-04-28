@@ -109,9 +109,13 @@ $scope.github = "https://github.com/ac486/is219s16chen-p3";
 	
 	/* ADD FUNCTIONS FOR STEP 7 HERE */
 		
-	
-	
-	
+$scope.like = function(index){
+	$scope.movies[index].likes++;
+};	
+$scope.dislike = function(index){
+	$scope.movies[index].dislikes--;
+};
+
 	
 	
 	
