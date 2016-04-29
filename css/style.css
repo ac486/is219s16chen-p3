@@ -111,11 +111,13 @@ border-radius: 50%;
 .likes {
 	background-color: #008700;
 	color: #ffffff;
+	transition: width 500ms, height 500ms;
 }
 
 .dislikes{
 	background-color: #f65a5b;
 	color: #ffffff;
+	transition: width 500ms, height 500ms;
 }
 
 /* This makes sure your Github Button is centered */
@@ -137,7 +139,14 @@ border-radius: 50%;
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
 
-
+.likes:hover{
+	background-color: #9edd87;
+	color: #008700;
+}
+.dislikes:hover{
+	background-color: #fdd6d6;
+	color: #F65A5B;
+}
 
 
 
