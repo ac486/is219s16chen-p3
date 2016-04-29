@@ -115,7 +115,14 @@ $scope.like = function(index){
 $scope.dislike = function(index){
 	$scope.movies[index].dislikes--;
 };
-
+$scope.posterClick = function(index){
+	if($scope.movies[index].posterindex < ($scope.movies[index].posters.length - 1)){
+		$scope.movies[index].posterindex++;
+	}
+	else{
+		$scope.movies[index].posterindex = 0;
+	}	
+};
 	
 	
 	
