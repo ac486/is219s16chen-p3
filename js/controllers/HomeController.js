@@ -88,10 +88,50 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
-	
-	
-  ];
+	},
+    {
+      title:    'Interstellar',
+      iscore:   8.6,
+      rating:   'PG-13',
+      runtime:  169,
+      released: new Date('2014', '11', '7'),
+      country:  'USA',
+      posters:  ['img/interstellar.jpg','img/interstellar2.jpg'],
+      imdb:             'http://www.imdb.com/title/tt0816692',
+      website:  'http://www.interstellarmovie.net/',
+      likes:    800,
+      dislikes: 200,
+      posterindex: 0
+        },
+    {
+      title:    'The Martian',
+      iscore:   8.1,
+      rating:   'PG-13',
+      runtime:  144,
+      released: new Date('2015', '10', '2'),
+      country:  'USA',
+      posters:  ['img/themartian.jpg','img/themartian2.jpg'],
+      imdb:             'http://www.imdb.com/title/tt3659388',
+      website:  'http://www.foxmovies.com/movies/the-martian',
+      likes:    700,
+      dislikes: 300,
+      posterindex: 0
+        },
+    {
+      title:    'Mars Attacks!',
+      iscore:   6.3,
+      rating:   'PG-13',
+      runtime:  106,
+      released: new Date('1996', '12', '13'),
+      country:  'USA',
+      posters:  ['img/marsattacks.jpg','img/marsattacks2.jpg'],
+      imdb:             'http://www.imdb.com/title/tt0116996',
+      website:  'http://www.warnerbros.com/mars-attacks',
+      likes:    600,
+      dislikes: 400,
+      posterindex: 0
+        }
+];
 	
 	
 
